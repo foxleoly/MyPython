@@ -1,0 +1,18 @@
+<dbip>
+<ip>10.74.117.252</ip>
+    <hostname>leo-vm</hostname>
+    <owner>leo</owner>
+    <os-type>debian</os-type>
+    <username>root</username>
+    <pwd>cisco123</pwd>
+    <VM-HW>VM</VM-HW>
+    <comments></comments>
+<ip>10.74.113.232</ip>
+    <hostname>debian-ws</hostname>
+    <owner>leo</owner>
+    <os-type>debian</os-type>
+    <username>root</username>
+    <pwd>cisco123</pwd>
+    <VM-HW>VM</VM-HW>
+    <comments></comments>
+<dbip/>
