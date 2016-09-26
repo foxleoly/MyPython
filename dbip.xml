@@ -1,18 +1,32 @@
 <dbip>
-<ip>10.74.117.252</ip>
-    <hostname>leo-vm</hostname>
-    <owner>leo</owner>
-    <os-type>debian</os-type>
-    <username>root</username>
-    <pwd>cisco123</pwd>
-    <VM-HW>VM</VM-HW>
-    <comments></comments>
-<ip>10.74.113.232</ip>
-    <hostname>debian-ws</hostname>
-    <owner>leo</owner>
-    <os-type>debian</os-type>
-    <username>root</username>
-    <pwd>cisco123</pwd>
-    <VM-HW>VM</VM-HW>
-    <comments></comments>
+    <entry>
+            <ip>10.74.117.252</ip>
+            <hostname>leo-vm</hostname>
+            <owner>leo</owner>
+            <os-type>debian</os-type>
+            <username>root</username>
+            <pwd>cisco123</pwd>
+            <VM-HW>VM</VM-HW>
+            <comments></comments>
+    </entry>
+    <entry>
+            <ip>10.74.113.232</ip>
+            <hostname>debian-ws</hostname>
+            <owner>leo</owner>
+            <os-type>debian</os-type>
+            <username>root</username>
+            <pwd>cisco123</pwd>
+            <VM-HW>VM</VM-HW>
+            <comments></comments>
+    </entry>
+    <entry>
+            <ip>10.74.117.245</ip>
+            <hostname>debian-scapy</hostname>
+            <owner>leo</owner>
+            <os-type>debian</os-type>
+            <username>root</username>
+            <pwd>cisco123</pwd>
+            <VM-HW>VM</VM-HW>
+            <comments></comments>
+    </entry>
 <dbip/>
