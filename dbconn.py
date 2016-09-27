@@ -3,6 +3,7 @@
 author: Leo li 
 the script is connect to db
 """
+"""
 import pymysql
 db_conn = pymysql.connect(
     host='10.74.117.245',
@@ -24,3 +25,7 @@ try:
 
 finally:
     db_conn.close()
+"""
+from lxml import etree
+xmlFile = open('dbip.xml', 'r')
+r.xpath(xmlFile)
