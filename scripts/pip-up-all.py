@@ -12,12 +12,10 @@ import pip
 
 """
 check the privillge, if non-root script will be exit.
-"""
 if os.geteuid() != 0:
     print("This program must be run as root. Aborting.")
     sys.exit(1)
 
-"""
 execute all the update commands.
 """
 
