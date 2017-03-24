@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 # Author: Leo Li
 # Email: yaol.leo@gmail.com
+# Python version 3.6.0 test pass.
 """
 The script will update all the packages on the system.
 """
-import sys
-import os
+
 from subprocess import call
 import pip
 
@@ -18,8 +18,9 @@ if os.geteuid() != 0:
 
 execute all the update commands.
 """
-
-for dist in pip.get_installed_distributions():
-    call("sudo -H pip3 install -U " + dist.project_name, shell=True)
+async def updatepip():
+    """update pip lib"""
+    for dist in pip.get_installed_distributions():
+        call("sudo -H pip3 install -U " + dist.project_name, shell=True)
 
 print("All the package updated.")

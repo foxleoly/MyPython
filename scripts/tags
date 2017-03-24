@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+call	pip-up-all.py	/^from subprocess import call$/;"	kind:namespace	line:10
+os	pip-up-all.py	/^import os$/;"	kind:namespace	line:9
+pip	pip-up-all.py	/^import pip$/;"	kind:namespace	line:11
+pip-up-all.py	pip-up-all.py	1;"	kind:file	line:1
+sys	pip-up-all.py	/^import sys$/;"	kind:namespace	line:8
