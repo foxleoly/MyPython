@@ -8,7 +8,10 @@ The script will update all the packages on the system.
 """
 
 from subprocess import call
+from multiprocessing import Process
+import os
 import pip
+
 
 """
 execute all the update commands.
@@ -23,10 +26,10 @@ def projname():
 
 def updatepip():
     """update pip lib"""
-    for i in projname():
-        call("sudo -H pip3 install -U " + i, shell=True)
+    for name in projname():
+        call("sudo -H pip3 install -U " + name, shell=True)
 
 
 if __name__ == '__main__':
     updatepip()
-    print("All the package updated.")
+    print("All the packages updated.")
