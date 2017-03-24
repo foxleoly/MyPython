@@ -9,6 +9,7 @@ The script will update all the packages on the system.
 
 from subprocess import call
 import pip
+import asyncio
 
 """
 check the privillge, if non-root script will be exit.
@@ -23,4 +24,7 @@ async def updatepip():
     for dist in pip.get_installed_distributions():
         call("sudo -H pip3 install -U " + dist.project_name, shell=True)
 
+loop = asyncio.get_event_loop()
+loop.run_until_complete(updatepip)
+loop.close()
 print("All the package updated.")
