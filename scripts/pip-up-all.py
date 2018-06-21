@@ -2,7 +2,11 @@
 # -*- coding: utf-8 -*-
 # Author: Leo Li
 # Email: yaol.leo@gmail.com
-# Python version 3.6.0 test pass.
+# Python version 3.6.5 test pass.
+# pip upgrade to 10.0 use: 
+# from pip._internal.utils.misc import get_installed_distributions
+# the lib has changed.
+
 """
 The script will update all the packages on the system.
 """
@@ -19,7 +23,7 @@ execute all the update commands.
 def projname():
     """get the lib name by pip"""
     libname = []
-    for dist in pip.get_installed_distributions():
+    for dist in get_installed_distributions():
         libname.append(dist.project_name)
     return libname
 
