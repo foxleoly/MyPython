@@ -6,9 +6,9 @@ the script is connect to db
 """
 import pymysql
 db_conn = pymysql.connect(
-    host='10.74.117.245',
+    host='1.1.1.1',
     user='myip',
-    password='cisco123',
+    password='123',
     db='myip',
     charset='utf8mb4',
     cursorclass=pymysql.cursors.DictCursor
